@@ -31,7 +31,7 @@ email.post("/send", emailSuccessHandler, async (req, res, next) => {
 
   try {
     const msg = {
-      to: process.env.SENDER_EMAIL,
+      to: "jouttane.anass@gmail.com",
       from: process.env.SENDER_EMAIL,
       "reply-to": from,
       subject,
