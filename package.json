@@ -3,6 +3,7 @@
     "nodemon": "^3.1.9"
   },
   "scripts": {
+    "start": "node main.js",
     "dev": "nodemon main.js"
   },
   "dependencies": {
